@@ -1,0 +1,108 @@
+#Import Libraries
+import numpy as np
+import pandas as pd
+pd.set_option('display.max_columns', 100)
+from matplotlib import pyplot as plt
+
+%matplotlib inline
+
+import seaborn as sns
+
+# Load Data file
+df = pd.read_csv('real_estate_data.csv')
+
+#Dataframe dimesions
+df.shape
+#As you can see, we have 1883 observations and 26 features
+df.dtypes
+df.head()
+df.tail()
+df.head(10)
+type(df.dtypes)
+
+#Series is a one-dimensional labeled array capable of holding any data type (integers, strings, floating point numbers, Python objects, etc.). 
+The axis labels are collectively referred to as the index.
+#A series can be filtered by Boolean masks the same way that a DataFrame can be.
+df.dtypes[df.dtypes == 'object']
+
+#Loop through categorical features names and print each one
+for feature in df.dtypes[df.dtypes == 'object'].index:
+    print(feature)
+    
+#1.2 Distribution of Numeric Features
+#plot Histogram
+df.hist()
+
+#clear the text residue
+plt.show()
+
+#Histogram for year_built
+df.year_built.hist()
+plt.show()
+
+#plot histogram grid
+df.hist(figsize=(14,14), xrot=-45)
+plt.show()
+
+#Summarise numericall feature
+df.describe()
+
+min(tx_year)
+#Max no of bedrooms
+max(beds)
+sd(beds)
+25 percentile & 75 percentile
+
+#1.3 Distribution of categorical features
+#summarise categorical features
+df.describe(include=['object'])
+
+#Barplot for 'exterior walls'
+sns.countplot(y='exterior_walls', data=df)
+
+#Sparse Classes
+for feature in df.dtypes[df.dtypes == 'object'].index:
+    sns.countplot(y=feature, data=df)
+    plt.show()
+
+#1.4 Segmentations
+#segement tx_price by property_type and plot distributions
+sns.boxplot(y='property_type', x='tx_price', data=df)
+
+#segment by property_type and display the means within each class
+df.groupby('property_type').mean()
+
+#segement tx_price by property_type and plot distributions
+sns.boxplot(y='property_type', x='sqft', data=df)
+
+#segment by property_type and display the means and standard deviations
+df.groupby('property_type').agg(['mean', 'std'])
+
+df.groupby('lot_size').agg(['mean', 'std'])
+
+#1.5 Correlations
+correlation = df.corr()
+correlation
+
+#increase the figsize to 7 *6
+plt.figure(figsize=(7*6)
+sns.heatmap(correlation, cmap='RdBu_r')
+sns.set_style('white')
+
+plt.figure(figsize = (10,8))
+sns.heatmap(correlation, cmap='RdBu_r')
+plt.show()
+
+plt.figure(figsize = (10,8))
+sns.heatmap(correlation*100, cmap='RdBu_r')
+plt.show()
+
+df[['beds', 'baths']].corr()
+
+#Generate a mask for the upper triangle
+mask = np.zeros_like(correlation)
+mask[np.triu_indices_from(mask)] = 1
+
+plt.figure(figsize = (10,8))
+sns.heatmap(correlation*100, cmap='RdBu_r',annot=True, mask=mask, cbar=False)
+plt.show()
