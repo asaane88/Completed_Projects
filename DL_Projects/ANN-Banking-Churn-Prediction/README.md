@@ -26,11 +26,11 @@
 - The server is run on Local system during the staging of the project.
 - Older deployment was done on [Google Cloud Platform](https://cloud.google.com/)
 - Recently, the final deployment was done on **Heloku** platform and can be accessed from the link below.
-- LINK: [https://banking-churn-pediction](https://banking-churn-pediction.herokuapp.com)
+
 
 ## Predictions
 - The final prediction of the model is the percentage of churn for that customer.
--  The prediction signifies the chances of the customer to leave the services of the bank which makes the bank to _focus more on such such customers_ and try to retain them using **[Sales and Marketing strategies](https://github.com/paras009/Sales-and-Marketing-Analytics)** about which I have worked in this module.</br>
+-  The prediction signifies the chances of the customer to leave the services of the bank which makes the bank to _focus more on such such customers_ and try to retain them using **[Sales and Marketing strategies]** about which I have worked in this module.</br>
 
 
 #### Thank You!
