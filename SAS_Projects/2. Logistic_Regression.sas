@@ -78,12 +78,8 @@ proc logistic data=hf.classified_cities_hf outmodel=pout;
 run;
 
 
-
-
-
 /*
  * Coronary heart disease is a type of HF so it was chose
-
 
 Model Convergence Status
 Convergence criterion (GCONV=1E-8) satisfied.
@@ -118,9 +114,6 @@ proc logistic data=hf.classified_cities_hf outmodel=pout;
 	where Provider_State in ('IN','MO'); 
 	model class_var_hf=var_CHD;
 run;
-
-
-
 
 /*
  * I thought smoking and HF would be a significant association 
@@ -161,8 +154,6 @@ proc logistic data=hf.classified_cities_hf outmodel=pout;
 	model class_var_hf=var_CSMOKING;
 run;
 
-
-
 /*
  * Obesity can lead to HF so it was chosen
  * 
@@ -196,7 +187,6 @@ proc logistic data=hf.classified_cities_hf outmodel=pout;
 	where Provider_State in ('IN','MO'); 
 	model class_var_hf=var_OBESITY;
 run;
-
 
 /*
  * Lack of Access to healthcare is generally considered lead to poor health outcomes
@@ -234,9 +224,6 @@ proc logistic data=hf.classified_cities_hf outmodel=pout;
 	where Provider_State in ('IN','MO'); 
 	model class_var_hf=var_ACCESS2;
 run;
-
-
-
 
 /************* MULTIVARIABLE LOGISTIC REGRESSION ***********************/
 
@@ -278,13 +265,6 @@ proc logistic data=hf.classified_cities_hf outmodel=pout;
 	where Provider_State in ('IN','MO'); 
 	model class_var_hf=var_BPHIGH var_CSMOKING;
 run;
-
-
-
-
-
-
-
 
 /* Creating an Interaction and a Multivariable Regression */
 /* Tests interaction between coronary heart disease and high blood pressure */
@@ -336,13 +316,6 @@ proc logistic data=hf.classified_cities_hf outmodel=pout;
 run;
 
 
-
-
-
-
-
-
-
 /* Multivariable Regression With Categorical Variable */
 /* I wanted to see how high blood pressure varied by city
 and if that yielded important or significant results where a potential
@@ -367,15 +340,11 @@ var_BPHIGH	1	0.0032	0.9549
 Provider_City	17	0.3085	1.0000
  * 
  */
-
 proc logistic data=hf.classified_cities_hf outmodel=pout;
 	class Provider_City;
 	where Provider_State in ('IN','MO'); 
 	model class_var_hf= var_BPHIGH Provider_City;
 run;
-
-
-
 
 /***************** TESTING/TRAINING THE LOGISTIC MODEL *****************/
 
@@ -388,9 +357,6 @@ run;
 data testhf;
 	set hf.classified_cities_hf (obs=12);
 run;
-
-
-
 
 /* Executing the training/testing models */
 /* Modeling to be done on BPHigh and Obesity as these are the two most important health factors from above testing */
@@ -432,13 +398,3 @@ proc logistic inmodel=outm1;
 run;
 
 proc freq data=preds1;
-
-
-
-
-
-
-
-
-
-
