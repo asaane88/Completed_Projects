@@ -28,15 +28,10 @@ ________________________________________________________________________________
 1) Python 3.6 Or above
 2) Opencv-python -> Python 3.4+ comes with an easy installation tool called pip to install additional packages. (package manager) 
       
-     
+      
 Successfull installation of above packages may be checked by moving into python shell and typing "import cv2"
 If nothing shows up then installation was successful.
-.
-We had used python 3.6.1 but any version higher than 3.6.1 will also do.
-
-
 _______________________________________________________________________________________________________________________________
-
 
 The Project Folders have 4 sub folders
 1. Car 
@@ -45,11 +40,3 @@ The Project Folders have 4 sub folders
 4. Pedestrian 
 
 In each of the subfolder there will be two videos ,one haarcascade ,two python scripts (one for each of the videos).
-
-Due to file size constraint I wasn't able to upload all the videos.
-Please raise an issue if you need the videos and I'll send it ASAP.
-	 
-
-
-
-
