@@ -2,8 +2,7 @@
 
 ## Project Overview
 
-• Performed thorough **exploratory analysis** of the dataset by systematically going through the 
-    * Basic information, 
+• Performed thorough **exploratory analysis** of the dataset by systematically going through theBasic information, 
     * Numerical Distributions, 
     * Categorical Distributions, 
     * Segmenting Numerical information against the categorical features and 
