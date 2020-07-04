@@ -13,8 +13,8 @@ A recommendation system is a platform that provides its users with various conte
 A recommendation system takes the information about the user as an input.
 
 There are two types of recommendation systems 
-  – Content-Based Recommendation System and 
-  - Collaborative Filtering Recommendation. 
+  - Content-Based Recommendation System and 
+  - Collaborative Filtering Recommendation 
 
 In this project of recommendation system in R, we will work on a collaborative filtering recommendation system and more specifically, ITEM based collaborative recommendation system.
 
