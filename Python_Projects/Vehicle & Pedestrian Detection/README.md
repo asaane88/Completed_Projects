@@ -39,10 +39,10 @@ ________________________________________________________________________________
 
 
 The Project Folders have 4 sub folders
-1)Car 
-2)Two Wheeler
-3)Bus
-4)Pedestrian 
+1. Car 
+2. Two Wheeler
+3. Bus
+4. Pedestrian 
 
 In each of the subfolder there will be two videos ,one haarcascade ,two python scripts (one for each of the videos).
 
