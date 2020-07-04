@@ -17,7 +17,7 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 1. ANN - Banking Churn Prediction
 2. CNN - Multi Label Image Classification
 3. CNN - Image Classification - Cats and Dogs
-4  LSTM - Fake News Identifier
+4. LSTM - Fake News Identifier
 
 # NLP Projects
 1. Diabetes Prediction
