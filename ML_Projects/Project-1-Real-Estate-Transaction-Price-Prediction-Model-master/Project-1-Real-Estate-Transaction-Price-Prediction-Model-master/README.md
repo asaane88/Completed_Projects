@@ -3,19 +3,19 @@
 ## Project Overview
 
 • Performed thorough **exploratory analysis** of the dataset by systematically going through the 
-    - Basic information, 
-    - Numerical Distributions, 
-    - Categorical Distributions, 
-    - Segmenting Numerical information against the categorical features and 
-    - Correlation Analysis
+    * Basic information, 
+    * Numerical Distributions, 
+    * Categorical Distributions, 
+    * Segmenting Numerical information against the categorical features and 
+    * Correlation Analysis
 
 • Based on the understanding of the dataset, performed several **data cleaning** actions such as 
-    - Removing Duplicates, 
-    - Fixing Structural Errors, 
-    - Dealing with missing categorical features as well as missing numerical features. 
-    - Used Data Visualization tools and statistical analysis and 
-    - Performed Outlier Analysis and 
-    - Removed some Unwanted Observations.
+    * Removing Duplicates, 
+    * Fixing Structural Errors, 
+    * Dealing with missing categorical features as well as missing numerical features. 
+    * Used Data Visualization tools and statistical analysis and 
+    * Performed Outlier Analysis and 
+    * Removed some Unwanted Observations.
 
 • Performed **feature engineering** step by bringing some domain knowledge of the seniors and engineered new features that bring more useful insights from the data and constructed a decent Analytical Base Table (ABT).
 
@@ -63,11 +63,11 @@
     * **Lasso Regression** – Because of the sparse data from the many categorical variables, I thought a normalized regression like lasso would be effective.
     * **Random Forest** – Again, with the sparsity associated with the data, I thought that this would be a good fit.
 
-## STEP6:Model performance
+## STEP6: Model performance
 The Random Forest model far outperformed the other approaches on the test and validation sets.
 
 * **Random Forest : MAE = 68069.1971**
-* **Gradient Boosting: MAE = 70647.2441
-* **Lasso Regression: MAE = 85072.8543
-* **Ridge Regression: MAE = 85012.1669
-* **ElasticNet Regression: MAE = 86325.61
+* **Gradient Boosting: MAE = 70647.2441**
+* **Lasso Regression: MAE = 85072.8543**
+* **Ridge Regression: MAE = 85012.1669**
+* **ElasticNet Regression: MAE = 86325.61**
