@@ -1,10 +1,5 @@
-# Vehicle-And-Pedestrian-Detection-Using-Haar-Cascades
+# Vehicle & Pedestrian Detection
 <h1>Real Time Detection and Classification of Vehicles and Pedestrians Using Haar Cascade Classifier </h1>
-
-FULL TUTORIAL TO CREATE YOUR OWN HAAR CASCADE: https://www.youtube.com/watch?v=ydSXgBZ1ybk
-
-UPDATE [7-12-2018] I've also built an UI for it in Tkinter: https://github.com/AdityaPai2398/UI-For-Vehicle-and-Pedestrian-Detection-/tree/master/Vehicle%20and%20pedestrain%20detection
-
 
 Computer Vision Plays a vital role in traffic management and surveillance systems and has been an active research area in the past years. In systems like these, the detection of vehicles and also classification of the vehicle plays a major role. The datasets are traffic videos of urban environment taken from various cities around the world which were used to train the classifier hence generating a robust classifier. The proposed approach is computationally less expensive with faster processing speed. The experiments on-road prove it to be a robust and real time algorithm which is highly competitive with the existing architecture.
 
@@ -13,8 +8,6 @@ This System has the following Haar Cascades:
 2) Haar Cascade for Bus Detection
 3) Haar Cascade for Two-Wheeler Detection
 4) Haar Cascade for Pedestrian Detection
-
-
 
 The Results of the system are as shown below:
 
@@ -46,13 +39,9 @@ ________________________________________________________________________________
 
 
 The Project Folders have 4 sub folders
-
 1)Car 
-
 2)Two Wheeler
-
 3)Bus
-
 4)Pedestrian 
 
 In each of the subfolder there will be two videos ,one haarcascade ,two python scripts (one for each of the videos).
