@@ -1,16 +1,21 @@
 # Spam SMS Classification - Deployment
 ![Kaggle](https://img.shields.io/badge/Dataset-Kaggle-blue.svg) ![Python 3.6](https://img.shields.io/badge/Python-3.6-brightgreen.svg) ![NLTK](https://img.shields.io/badge/Library-NLTK-orange.svg)
 
-• This repository consists of files required to deploy a ___Machine Learning Web App___ created with ___Flask___ on ___Heroku___ platform.
+## Overview
+In this Project, We try to classify SMS messages as SPAM or NOT SPAM using various ML algorithms. The notebook (Spam SMS Classifier - Deployment.py)consists steps to process and explore the dataset, convert messages to vectors and applying ML techniques for the same.
 
-• If you want to view the deployed model, click on the following link:<br />
-Deployed at: _https://spam-sms-detector.herokuapp.com/_
+## Dataset
+The Dataset is a set of SMS tagged messages collected for SMS Spam research. It contains one set of SMS messages in English of 5,574 messages, tagged acording being ham (legitimate) or spam.
 
-• If you are searching for __Code, Algorithms used and Accuracy of the model__.. you won't find it here. Click the link mentioned below for the same:<br />
-Link: _https://github.com/anujvyas/Natural-Language-Processing-Projects/tree/master/Spam%20SMS%20Classification_
+Example Messages:
 
-• Please do ⭐ the repository, if it helped you in anyway.
+    ham What you doing?how are you? 
+    ham Ok lar... Joking wif u oni... 
+    ham dun say so early hor... U c already then say... 
+    ham MY NO. IN LUTON 0125698789 RING ME IF UR AROUND! H* 
+    ham Siva is in hostel aha:-. 
+    ham Cos i was out shopping wif darren jus now n i called him 2 ask wat present he wan lor. Then he started guessing who i was wif n he finally guessed darrenlor. 
+    spam FreeMsg: Txt: CALL to No: 86888 & claim your reward of 3 hours talk time to use from your phone now! ubscribe6GBP/ mnth inc 3hrs 16 stop?txtStop 
+    spam Sunshine Quiz! Win a super Sony DVD recorder if you canname the capital of Australia? Text MQUIZ to 82277. B 
+    spam URGENT! Your Mobile No 07808726822 was awarded a L2,000 Bonus Caller Prize on 02/09/03! This is our 2nd attempt to contact YOU! Call 0871-872-9758 BOX95QU 
 
-• A glimpse of the web app:
-
-![GIF](readme_resources/spam-sms-web-app.gif)
