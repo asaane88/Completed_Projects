@@ -21,7 +21,7 @@ Example Messages:
     
 ## Prediction Results
 
-**Accuracy score:** 0.9847533632286996
-**Precision score:** 0.9420289855072463
-**Recall score:** 0.935251798561151
-**F1 score:** 0.9386281588447652
+1. **Accuracy score:** 0.9847533632286996
+2. **Precision score:** 0.9420289855072463
+3. **Recall score:** 0.935251798561151
+4. **F1 score:** 0.9386281588447652
