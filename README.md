@@ -15,8 +15,9 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 
 # DL Projects
 1. CNN - Image Classification - Cats and Dogs
-2. CNN - Multi Label Image Classification
+2. Identify the apparels (Fashion MNIST)
 3. LSTM - Fake News Identifier
+4. CNN - Multi Label Image Classification - CIFAR 10
 
 # NLP Projects
 1. Diabetes Prediction
