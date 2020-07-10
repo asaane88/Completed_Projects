@@ -5,35 +5,43 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 # My Projects
 
 # ML Projects
-1. Real Estate Transaction Price Prediction
-2. Data Driven Approach for Employee Retention by HR Department
-3. Customer Segementation for Better Marketing
-4. Retail Demand Prediction
-5. Sales and Marketing Analytics
-6. Loan Prediction Model
-7. Credit Card Default Prediction
-
+|**Project Name** | **Evaluation Metric & Score** |
+| --- | --- |
+|1. Real Estate Transaction Price Prediction |
+|2. Data Driven Approach for Employee Retention by HR Department |
+|3. Customer Segementation for Better Marketing |
+|4. Retail Demand Prediction |
+|5. Sales and Marketing Analytics |
+|6. Loan Prediction Model |
+|7. Credit Card Default Prediction |
+ 
 # DL Projects
-1. CNN - Image Classification - Cats and Dogs
-2. Identify the apparels (Fashion MNIST)
-3. LSTM - Fake News Identifier
+|**Project Name** | **Evaluation Metric & Score** |
+| --- | --- |
+|1. CNN - Image Classification - Cats and Dogs |
+|2. Identify the apparels (Fashion MNIST) |
+|3. LSTM - Fake News Identifier |
 
 # NLP Projects
-1. Diabetes Prediction
-2. Movie Genre Prediction
-3. Restaurant Review- Sentiment Analysis
-4. Spam- SMS Classifier
+|**Project Name** | **Evaluation Metric & Score** |
+| --- | --- |
+|1. Diabetes Prediction |
+|2. Movie Genre Prediction |
+|3. Restaurant Review- Sentiment Analysis |
+|4. Spam- SMS Classifier |
+
+# R Projects
+|**Project Name** | **Evaluation Metric & Score** |
+| --- | --- |
+|1. Credit Card Fraud Detection |
+|2. Customer Segementation |
+|3. Movie Lens Project |
+|4. Uber Data Analysis |
 
 # Big Data Projects
 1. Spark SQL
 2. Rating Based Book Recommendation
 3. Simple Text Classification with Apache Spark
-
-# R Projects
-1. Credit Card Fraud Detection
-2. Customer Segementation
-3. Movie Lens Project
-4. Uber Data Analysis
 
 # SQl Projects
 1. Analyze International Debt Statistics
