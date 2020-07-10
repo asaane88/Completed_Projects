@@ -7,20 +7,20 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 # ML Projects
 |**Project Name** | **Evaluation Metric & Score** |
 | --- | --- |
-|1. Real Estate Transaction Price Prediction |
-|2. Data Driven Approach for Employee Retention by HR Department |
-|3. Customer Segementation for Better Marketing |
-|4. Retail Demand Prediction |
-|5. Sales and Marketing Analytics |
-|6. Loan Prediction Model |
-|7. Credit Card Default Prediction |
+|1. Real Estate Transaction Price Prediction | **Random Forest : MAE = 68069.1971** |
+|2. Data Driven Approach for Employee Retention by HR Department |**Random Forest: AUC_ROC = 0.99151** |
+|3. Customer Segementation for Better Marketing |**Adjusted Rand Score = 0.60213** |
+|4. Retail Demand Prediction |**CatBoost = 0.4534** |
+|5. Sales and Marketing Analytics |**A/B Testing** |
+|6. Loan Prediction Model |**AdaBoost: F1 Score = 0.49** |
+|7. Credit Card Default Prediction |**LightGBM: AUC Score = 0.78** |
  
 # DL Projects
 |**Project Name** | **Evaluation Metric & Score** |
 | --- | --- |
-|1. CNN - Image Classification - Cats and Dogs |
-|2. Identify the apparels (Fashion MNIST) |
-|3. LSTM - Fake News Identifier |
+|1. CNN - Image Classification - Cats and Dogs |**Training Accuracy: 85.16%, Test Accuracy: 81.80%**
+|2. Identify the apparels (Fashion MNIST) |**CNN Model: Accuracy = 0.9235** |
+|3. LSTM - Fake News Identifier |**Accuracy Score = 0.9077** |
 
 # NLP Projects
 |**Project Name** | **Evaluation Metric & Score** |
