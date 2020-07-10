@@ -21,16 +21,11 @@ It includes the data
 - Aggregated check-ins over time for each of the 86K businesses
 - 200,000 pictures from the included businesses
 
-The data for the project was taken from following two files
 
-- yelp\_academic\_dataset\_review.json
-- yelp\_academic\_dataset\_business.json
-
-### **Tools and Technologies used**
+### **Tools and Technologies**
 
 Python, NLTK
 
-**Proposed Solution**
 
 **Defining Sentiment**
 
@@ -72,37 +67,10 @@ import nltk
 nltk.download()
 
 ### **Extracting reviews**
-
-**This step must be done before running any of the classifiers below.**
-
-You need to run the DataCreator file to extract the reviews for businesses of category restaurant and generate samples for each review class (pos/neg/neutral). The script creates three json files one for each class and a file which contains all the restaurant id and names.
-
-python data\_Creator.py
-
-### (Make sure to have input data files in folder yelp\_dataset\_challenge\_academic\_dataset . For created sample files check yelp\_dataset\_challenge\_academic\_dataset folder)
-
-Input Data files –
-
-[yelp\_academic\_dataset\_business.json](https://github.com/snehabangar/Sentiment-Analysis-NLP/blob/master/ReviewAnalyzer/src/yelp/review/yelp_dataset_challenge_academic_dataset/._yelp_academic_dataset_business.json)
-
-[yelp\_academic\_dataset\_review.json](https://github.com/snehabangar/Sentiment-Analysis-NLP/blob/master/ReviewAnalyzer/src/yelp/review/yelp_dataset_challenge_academic_dataset/._yelp_academic_dataset_review.json)
-
-[ngram\_words.txt](https://github.com/snehabangar/Sentiment-Analysis-NLP/blob/master/ReviewAnalyzer/src/yelp/review/yelp_dataset_challenge_academic_dataset/ngram_words.txt)
-
-[YELP\_Restaurant\_Categories.txt](https://github.com/snehabangar/Sentiment-Analysis-NLP/blob/master/ReviewAnalyzer/src/yelp/review/yelp_dataset_challenge_academic_dataset/._YELP_Restaurant_Categories.txt)
+This step must be done before running any of the classifiers below.
 
 ### **Naive Bayes**
-
 It trains one classifier for feature extraction filter (single words, stopwords removal, stemming, n-gram) and prints the predicted and actual rating for each restaurant along with the overall accuracy.
 
-python main.py
-
 ### **Maximum Entropy**
-
 It trains maximum entropy classifier for feature extraction filter (single words, stopwords removal, stemming, n-gram) and prints the predicted and actual rating for each restaurant along with the overall accuracy.
-
-python max\_entropy.py
-
-### **Results**
-
-For detailed analysis and result, please check Project\_report.docx
