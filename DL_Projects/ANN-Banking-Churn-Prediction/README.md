@@ -1,7 +1,6 @@
-# ANN-based-Banking-Churn-Prediction
+# ANN-Banking-Churn-Prediction
 - This repository will have complete machine learning and deep learning based banking churn prediction ANN model which will analyze tha probablity for a customer to leave.
-- The project was deployed on Google Cloud Platform as well as completely tested on Localhost.
-</br>
+
 
 ## Project Description
 ### Welcome Screen
