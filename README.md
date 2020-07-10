@@ -14,10 +14,9 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 7. Credit Card Default Prediction
 
 # DL Projects
-1. ANN - Banking Churn Prediction
+1. CNN - Image Classification - Cats and Dogs
 2. CNN - Multi Label Image Classification
-3. CNN - Image Classification - Cats and Dogs
-4. LSTM - Fake News Identifier
+3. LSTM - Fake News Identifier
 
 # NLP Projects
 1. Diabetes Prediction
