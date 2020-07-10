@@ -26,17 +26,17 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 |**Project Name** | **Evaluation Metric & Score** |
 | --- | --- |
 |1. Diabetes Prediction |
-|2. Movie Genre Prediction |
+|2. Movie Genre Prediction | **F1 score = 0.95** | 
 |3. Restaurant Review- Sentiment Analysis |
-|4. Spam- SMS Classifier |
+|4. Spam- SMS Classifier | **F1 score: 0.93862** |
 
 # R Projects
 |**Project Name** | **Evaluation Metric & Score** |
 | --- | --- |
-|1. Credit Card Fraud Detection |
-|2. Customer Segementation |
-|3. Movie Lens Project |
-|4. Uber Data Analysis |
+|1. Credit Card Fraud Detection |**GBM: AUC Score = 0.9555** |
+|2. Customer Segementation |**K-means** 
+|3. Movie Lens Project |**Recommender System** |
+|4. Uber Data Analysis |**Data Visualization** |
 
 # Big Data Projects
 1. Spark SQL
