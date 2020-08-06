@@ -11,15 +11,15 @@ Machine learning techniques allow predicting the amount of products/services to 
 
 According to technology trends in the retail sphere, demand forecasting is often aimed to improve the following processes:
 
-• Supplier relationship management. By having the prediction of customer demand in numbers, it’s possible to calculate how many products to order, making it easy for you to decide whether you need new supply chains or to reduce the number of suppliers.
+• **Supplier relationship management**: By having the prediction of customer demand in numbers, it’s possible to calculate how many products to order, making it easy for you to decide whether you need new supply chains or to reduce the number of suppliers.
 
-• Customer relationship management. Customers planning to buy something expect the products they want to be available immediately. Demand forecasting allows you to predict which categories of products need to be purchased in the next period from a specific store location. This improves customer satisfaction and commitment to your brand.
+• **Customer relationship management**: Customers planning to buy something expect the products they want to be available immediately. Demand forecasting allows you to predict which categories of products need to be purchased in the next period from a specific store location. This improves customer satisfaction and commitment to your brand.
 
-• Order fulfillment and logistics. Demand forecasting features optimize supply chains. This means that at the time of order, the product will be more likely to be in stock, and unsold goods won’t occupy prime retail space.
+• **Order fulfillment and logistics**: Demand forecasting features optimize supply chains. This means that at the time of order, the product will be more likely to be in stock, and unsold goods won’t occupy prime retail space.
 
-• Marketing campaigns. Forecasting is often used to adjust ads and marketing campaigns and can influence the number of sales. Sophisticated machine learning forecasting models can take marketing data into account as well.
+• **Marketing campaigns**: Forecasting is often used to adjust ads and marketing campaigns and can influence the number of sales. Sophisticated machine learning forecasting models can take marketing data into account as well.
 
-• Manufacturing flow management. Being part of the ERP, time series-based demand forecasting predicts production needs based on how many goods will eventually be sold.
+• **Manufacturing flow management**: Being part of the ERP, time series-based demand forecasting predicts production needs based on how many goods will eventually be sold.
 
 ## Design Algorithm for ML-Based Demand Forecasting Solutions
 When initiating the demand forecasting feature development, it’s recommended to understand the workflow of ML modeling. This offers a data-driven roadmap on how to optimize the development process.
@@ -38,12 +38,12 @@ In my experience, a few days is enough to understand the current situation and o
 ### STEP 2. SETTING BUSINESS GOALS AND SUCCESS METRICS
 This stage establishes the client’s highlights of business aims and additional conditions to be taken into account. 
 
-Product Type/Categories
+**Product Type/Categories**
 
 What types of products/product categories will you forecast? Different products/services have different demand forecasting outputs. 
 For example, the demand forecast for perishable products and subscription services coming at the same time each month will likely be different.
 
-Time Frame
+**Time Frame**
 
 What is the length of time for the demand forecast?
 Short-term forecasts are commonly done for less than 12 months – 1 week/1 month/6 month. 
@@ -99,5 +99,3 @@ Since models show different levels of accuracy, the scientists choose the ones t
 #### Deployment
 This stage assumes the forecasting model(s) integration into production use. 
 We also recommend setting a pipeline to aggregate new data to use for your next AI features. This can save you a lot of data preparation work in future projects. Doing this also increases the accuracy and variety of what you could be able to forecast.
-
-
