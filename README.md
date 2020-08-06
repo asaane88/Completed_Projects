@@ -22,7 +22,7 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 |2. Identify the apparels (Fashion MNIST) |**CNN Model: Accuracy = 0.9235** |
 |3. LSTM - Fake News Identifier |**Accuracy Score = 0.9077** |
 
-# NLP Projects
+### NLP Projects
 |**Project Name** | **Evaluation Metric & Score** |
 | --- | --- |
 |1. Diabetes Prediction |
