@@ -1,10 +1,10 @@
-## Welcome to My Data Science Porfolio
+# Welcome to My Data Science Porfolio
 
 Hello Everyone, I am a technically minded, results oriented, highly energetic and self motivated professional with great analytical skills and hungry to be shaped into an even more experienced professional. Extensive experience in the Data Analysis, Data Visualization and familiarity with AI - Algorithms. Experienced in developing ML applications and solutions for clients and have ambition to complete projects of high standard. Also experienced in training and completion of projects in R, Python, MySQL.
 
-# My Projects
+## My Projects
 
-# ML Projects
+### ML Projects
 |**Project Name** | **Evaluation Metric & Score** |
 | --- | --- |
 |1. Real Estate Transaction Price Prediction | **Random Forest : MAE = 68069.1971** |
@@ -15,7 +15,7 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 |6. Loan Prediction Model |**AdaBoost: F1 Score = 0.49** |
 |7. Credit Card Default Prediction |**LightGBM: AUC Score = 0.78** |
  
-# DL Projects
+### DL Projects
 |**Project Name** | **Evaluation Metric & Score** |
 | --- | --- |
 |1. CNN - Image Classification - Cats and Dogs |**Training Accuracy: 85.16%, Test Accuracy: 81.80%**
@@ -30,7 +30,7 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 |3. Restaurant Review- Sentiment Analysis |
 |4. Spam- SMS Classifier | **F1 score: 0.93862** |
 
-# R Projects
+### R Projects
 |**Project Name** | **Evaluation Metric & Score** |
 | --- | --- |
 |1. Credit Card Fraud Detection |**GBM: AUC Score = 0.9555** |
@@ -38,22 +38,22 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 |3. Movie Lens Project |**Recommender System** |
 |4. Uber Data Analysis |**Data Visualization** |
 
-# Big Data Projects
+### Big Data Projects
 1. Spark SQL
 2. Rating Based Book Recommendation
 3. Simple Text Classification with Apache Spark
 
-# SQl Projects
+### SQl Projects
 1. Analyze International Debt Statistics
 2. Exploring 67 years of LEGO
 3. Predict Taxi Fares with Random Forests
 
-# SAS Projects
+### SAS Projects
 1. Linear Regression
 2. Logisitic Regression
 3. Clustering
 
-# Python Projects
+### Python Projects
 1. Credit Card Fraud Detection
 2. Indian_Railway_Announcement
 3. Vehicle-And-Pedestrian-Detection
