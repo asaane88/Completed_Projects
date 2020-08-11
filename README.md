@@ -21,6 +21,7 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 |1. CNN - Image Classification - Cats and Dogs |**Training Accuracy: 85.16%, Test Accuracy: 81.80%**
 |2. Identify the apparels (Fashion MNIST) |**CNN Model: Accuracy = 0.9235** |
 |3. LSTM - Fake News Identifier |**Accuracy Score = 0.9077** |
+|4. Building Face Detection and Recognition Model Using Python and OpenCv |**Confidence Score > 50%|
 
 ### NLP Projects
 |**Project Name** | **Evaluation Metric & Score** |
