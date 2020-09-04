@@ -26,10 +26,8 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 ### NLP Projects
 |**Project Name** | **Evaluation Metric & Score** |
 | --- | --- |
-|1. Diabetes Prediction |
-|2. Movie Genre Prediction | **F1 score = 0.95** | 
-|3. Restaurant Review- Sentiment Analysis |
-|4. Spam- SMS Classifier | **F1 score: 0.93862** |
+|1. Movie Genre Prediction | **F1 score = 0.95** | 
+|2. Spam- SMS Classifier | **F1 score: 0.93862** |
 
 ### R Projects
 |**Project Name** | **Evaluation Metric & Score** |
@@ -43,11 +41,6 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 1. Spark SQL
 2. Rating Based Book Recommendation
 3. Simple Text Classification with Apache Spark
-
-### SQl Projects
-1. Analyze International Debt Statistics
-2. Exploring 67 years of LEGO
-3. Predict Taxi Fares with Random Forests
 
 ### SAS Projects
 1. Linear Regression
