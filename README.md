@@ -42,11 +42,6 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 2. Rating Based Book Recommendation
 3. Simple Text Classification with Apache Spark
 
-### SAS Projects
-1. Linear Regression
-2. Logisitic Regression
-3. Clustering
-
 ### Python Projects
 1. Credit Card Fraud Detection
 2. Indian_Railway_Announcement
