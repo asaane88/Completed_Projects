@@ -27,7 +27,5 @@ After the firstpass is completed, a file 'firstpass' is created. For any further
 
 ## Results
 
-Due to a lack of time, I haven't been able to compile comprehensive results.
-
 The F1 score achieved on the test set by the model in the code was 0.95.
 The exact prediction accuracy achieved on the test set by the model in the code was 78%.
