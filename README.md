@@ -1,6 +1,6 @@
 # Welcome to My Data Science Porfolio
 
-Hello Everyone, I am a technically minded, results oriented, highly energetic and self motivated professional with great analytical skills and hungry to be shaped into an even more experienced professional. Extensive experience in the Data Analysis, Data Visualization and familiarity with AI - Algorithms. Experienced in developing ML applications and solutions for clients and have ambition to complete projects of high standard. Also experienced in training and completion of projects in R, Python, MySQL.
+Hello Everyone, This repository contains my work in the ML| DL projects.
 
 ## My Projects
 
