@@ -12,8 +12,7 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 |3. Customer Segementation for Better Marketing |**Adjusted Rand Score = 0.60213** |
 |4. Retail Demand Prediction |**CatBoost = 0.4534** |
 |5. Sales and Marketing Analytics |**A/B Testing** |
-|6. Loan Prediction Model |**AdaBoost: F1 Score = 0.49** |
-|7. Credit Card Default Prediction |**LightGBM: AUC Score = 0.78** |
+
  
 ### DL Projects
 |**Project Name** | **Evaluation Metric & Score** |
