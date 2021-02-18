@@ -35,13 +35,9 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 |2. Movie Lens Project |**Recommender System** |
 |3. Uber Data Analysis |**Data Visualization** |
 
-### Big Data Projects
-1. Spark SQL
-2. Rating Based Book Recommendation
-3. Simple Text Classification with Apache Spark
-
 ### Python Projects
-1. Indian_Railway_Announcement
-2. Vehicle-And-Pedestrian-Detection
-3. AI Jarvis_personal_Assistant
-4. Self Driving Virtual Car
+|**Project Name** |
+|1. Indian_Railway_Announcement|
+|2. Vehicle-And-Pedestrian-Detection|
+|3. AI Jarvis_personal_Assistant|
+|4. Self Driving Virtual Car|
