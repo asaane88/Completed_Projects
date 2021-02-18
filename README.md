@@ -8,7 +8,7 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 |**Project Name** | **Evaluation Metric & Score** |
 | --- | --- |
 |1. Real Estate Transaction Price Prediction | **Random Forest : MAE = 68069.1971** |
-|2. Data Driven Approach for Employee Retention by HR Department |**Random Forest: AUC_ROC = 0.99151** |
+|2. Data Driven Approach for Employee Retention |**Random Forest: AUC_ROC = 0.99151** |
 |3. Customer Segementation for Better Marketing |**Adjusted Rand Score = 0.60213** |
 |4. Retail Demand Prediction |**CatBoost = 0.4534** |
 |5. Sales and Marketing Analytics |**A/B Testing** |
