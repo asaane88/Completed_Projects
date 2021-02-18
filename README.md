@@ -36,7 +36,8 @@ Hello Everyone, This repository contains my work in the ML| DL projects.
 |3. Uber Data Analysis |**Data Visualization** |
 
 ### Python Projects
-|**Project Name** |
+| **Project Name** |
+|--|
 |1. Indian_Railway_Announcement|
 |2. Vehicle-And-Pedestrian-Detection|
 |3. AI Jarvis_personal_Assistant|
