@@ -31,10 +31,9 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 ### R Projects
 |**Project Name** | **Evaluation Metric & Score** |
 | --- | --- |
-|1. Credit Card Fraud Detection |**GBM: AUC Score = 0.9555** |
-|2. Customer Segementation |**K-means** 
-|3. Movie Lens Project |**Recommender System** |
-|4. Uber Data Analysis |**Data Visualization** |
+|1. Customer Segementation |**K-means** 
+|2. Movie Lens Project |**Recommender System** |
+|3. Uber Data Analysis |**Data Visualization** |
 
 ### Big Data Projects
 1. Spark SQL
@@ -42,8 +41,7 @@ Hello Everyone, I am a technically minded, results oriented, highly energetic an
 3. Simple Text Classification with Apache Spark
 
 ### Python Projects
-1. Credit Card Fraud Detection
-2. Indian_Railway_Announcement
-3. Vehicle-And-Pedestrian-Detection
-4. AI Jarvis_personal_Assistant
-5. Self Driving Virtual Car
+1. Indian_Railway_Announcement
+2. Vehicle-And-Pedestrian-Detection
+3. AI Jarvis_personal_Assistant
+4. Self Driving Virtual Car
