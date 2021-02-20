@@ -1,4 +1,4 @@
-Demand Forecasting in Machine Learning
+# Demand Forecasting in Machine Learning
 
 ## Design Algorithm for ML-Based Demand Forecasting Solutions
 When initiating the demand forecasting feature development, it’s recommended to understand the workflow of ML modeling. This offers a data-driven roadmap on how to optimize the development process.
