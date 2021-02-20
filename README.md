@@ -30,7 +30,6 @@ Hello Everyone, This repository contains my work in the ML| DL projects.
 | --- | --- |
 |1. Customer Segementation |**K-means** 
 |2. Movie Lens Project |**Recommender System** |
-|3. Uber Data Analysis |**Data Visualization** |
 
 ### Python Projects
 | **Project Name** |
