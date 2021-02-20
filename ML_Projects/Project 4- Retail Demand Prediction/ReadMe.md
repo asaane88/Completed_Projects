@@ -12,8 +12,6 @@ The first task when initiating the demand forecasting project is to provide the 
 2. Briefly review the data structure, accuracy, and consistency
 3. Run a few data tests and pilots
 
-In my experience, a few days is enough to understand the current situation and outline possible solutions.
-
 ### STEP 2. SETTING BUSINESS GOALS AND SUCCESS METRICS
 This stage establishes the client’s highlights of business aims and additional conditions to be taken into account. 
 
