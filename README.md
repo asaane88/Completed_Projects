@@ -39,3 +39,5 @@ Hello Everyone, This repository contains my work in the ML| DL projects.
 |2. Vehicle-And-Pedestrian-Detection|
 |3. AI Jarvis_personal_Assistant|
 |4. Self Driving Virtual Car|
+|5. Driver Drowsiness Detection|
+|6. Email Chat Bot Automation|
